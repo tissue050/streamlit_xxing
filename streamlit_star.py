@@ -14,7 +14,7 @@ import pandas as pd
 import jieba
 import jieba.analyse as ana
 # 加载未登录词 
-jieba.load_userdict('D:/学习/学习资料/毕业设计/未登录词.txt')
+jieba.load_userdict('pages/data/未登录词.txt')
 import re
 import pickle
 
@@ -57,7 +57,7 @@ st.set_page_config(
 # In[3]:
 
 
-song_label_df = load_data('D:/学习/学习资料/毕业设计/userBehavior(去1歌曲标签补充版)(更新).xlsx')
+song_label_df = load_data('pages/data/userBehavior(去1歌曲标签补充版)(更新).xlsx')
 
 
 # In[ ]:
